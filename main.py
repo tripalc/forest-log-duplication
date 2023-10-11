@@ -7,6 +7,8 @@ def main():
 
     time.sleep(3)
 
+    pyautogui.PAUSE = 0.01
+
     while True:
         pyautogui.press('e')
         pyautogui.press('c')
